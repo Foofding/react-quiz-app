@@ -1,24 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <a href="https://youtu.be/F2JCjVSZlG0?t=277">
+        <button title="linkButton" style={{border:"1px solid darkgrey"}}> LINK </button>
+      </a>
     </div>
   );
 }
